@@ -71,3 +71,20 @@ body{
     box-shadow: 0 15px 25px rgba(52, 87, 220, 0.2);
     transform: translateX(-50%);
 }
+
+@media screen and (max-width:510px) {
+    .container {
+        margin:10px;
+    }
+    .container .color{
+        margin: 8px;
+        padding: 5px;
+    }
+    .color .rect-box{
+        width: 145px;
+        height: 148px;
+    }
+    .color .hex-value{
+        font-size: 1.05rem;
+    }
+}
